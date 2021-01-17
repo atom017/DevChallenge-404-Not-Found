@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Yusei Magic' , monospace;
+   
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+.header .h3{
+    font-size: 20px;
+    font-weight: 400;
+}
+.showcase{
+    
+    display: flex;
+    margin: 100px 50px;
+    gap: 80px;
+    
+}
+.img-container{
+    width: 60%;
+}
+
+
+img{
+    max-width: 100%;
+   
+}
+
+.main h1{
+    font-weight: bold;
+    font-size: 60px;
+    word-spacing: 7px;
+    
+}
+
+.main p{
+    margin: 40px 0;
+    line-height: 2;
+    font-size: 18px;
+    width: 60%;
+}
+
+.main button{
+    background-color: #292929;
+    color:#fff;
+    padding: 15px 20px;
+}
+
+.footer{
+    text-align: center;
+    
+}
+
+@media(max-width: 814px){
+    .showcase{
+        display: block;
+        width: 100%;
+        
+    }
+
+    .main{
+        align-items: center;
+    }
+
+    .main h1{
+        font-size: 45px;
+    }
+
+    .main p{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .img-container{
+        width: 80%;  
+    }
+}
